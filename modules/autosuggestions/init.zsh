@@ -24,6 +24,8 @@ if ! zstyle -t ':prezto:module:autosuggestions' color; then
   ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=''
 fi
 
+export ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
+
 #
 # Key Bindings
 #

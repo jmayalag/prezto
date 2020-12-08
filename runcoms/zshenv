@@ -15,4 +15,10 @@ export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # Miniconda
-export PATH="$PATH:/miniconda/bin"
+#export PATH="$PATH:/miniconda/bin"
+
+# Flutter
+#export PATH="$PATH:$HOME/Develop/flutter/bin"
+
+# Fortran (R build)
+#export PATH="$PATH:/usr/local/gfortran/bin"
